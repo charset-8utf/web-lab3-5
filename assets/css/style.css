@@ -1,0 +1,136 @@
+/* Global styles */
+html {
+    height: 100%;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    background-color: #323131;
+    color: white;
+    position: relative;
+    max-width: 540px;
+    min-height: 100%;
+    margin: 0 auto;
+    font-family: 'Suisse';
+    box-sizing: border-box;
+    padding: 36px;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .header nav ul li {
+    margin-right: 20px;
+  }
+  
+  .header nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header nav ul li a:hover {
+    opacity: 0.5;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .description {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .descriptiona {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .description h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+  }
+  
+  .sidebar {
+    width: 30%;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    opacity: 0.5;
+  }
+  
+  /* Footer styles */
+  .footer {
+    font-size: 16px;
+    margin: 5px;
+    position: absolute;
+    bottom: 36px;
+  }
